@@ -13,7 +13,9 @@ It will create all autotools related files.
 
 ### Run configure
 
-> ./configure --with-cuda=/usr/local/cuda60 --enable-mpi
+> ./configure --with-cuda=$CUDA_ROOT --enable-mpi
+
+where CUDA_ROOT is an environment variable set to the location of the CUDA toolkit (e.g. /usr/local/cuda-6.5)
 
 ### Run make
 

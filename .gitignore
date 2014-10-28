@@ -13,3 +13,8 @@ compile
 libtool
 config.log
 config.status
+m4/libtool.m4
+m4/lt*
+src/.deps
+src/testHelloMpiCuda
+src/testHelloMpiCuda.o
